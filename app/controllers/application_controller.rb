@@ -1,4 +1,4 @@
 class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
-  http_basic_authenticate_with name: "prasanna", password: "pavan", only: :create
+  # http_basic_authenticate_with name: "prasanna", password: "pavan", only: :create
 end
